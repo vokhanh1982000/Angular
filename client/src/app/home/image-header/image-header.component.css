@@ -1,0 +1,50 @@
+.main-image {
+    position: relative;
+    background: url("https://e4life.vn/wp-content/uploads/2021/09/tu-vung-ielts-chu-de-travel.png") no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 0% 0% 40% 40%;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f1f1f1;
+  }
+
+  .hero-text h1 {
+      margin: 0;
+      font-size: 300%;
+  }
+
+  .hero-text h1 span {
+      border: 6px solid white;
+      padding: 6px 14px ;
+      display: inline-block;
+  }
+
+  .cen {
+      margin: 5%;
+      display: block;
+      font-size: 150%;
+  }
+
+  .button {
+      color: #313131;
+      padding: 5% 10%;
+      background: #f1f1f1;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: .6s;
+  }
+
+  .button:hover {
+      opacity: .6;
+  }
